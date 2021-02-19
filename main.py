@@ -4,7 +4,7 @@ import math
 import cmath
 
 def function1(x):
-    return (x**4 + 68*x**5)/(math.cos(x) - math.e**x - 67) - (45*x**5 + x**3)/(x**7+(x/25)) - (x**6 - x**2 - 95)
+    return (x**4 + 68*x**5)/(math.cos(x) - math.exp(x) - 67) - (45*x**5 + x**3)/(x**7+(x/25)) - (x**6 - x**2 - 95)
 
 print("Задание 1.1")
 print("1)"f'{function1(-2):.2e}')
